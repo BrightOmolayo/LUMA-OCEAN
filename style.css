@@ -1,0 +1,20 @@
+body{
+    background-color: #DFF7FF;
+    color: #ffffff;
+}
+main{
+    border: 2px solid brown;
+}
+header{
+    text-align: center;
+}
+.branches-container{
+    display: flex;
+    justify-content: space-around;
+}
+.branches-container div{
+    background-color: #160D03;
+}
+footer{
+    background-color: #042810;
+}
