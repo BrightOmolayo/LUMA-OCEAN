@@ -1,13 +1,22 @@
+/* img{
+    width: 100%;
+}
 body{
-    background-color: #DFF7FF;
-    color: #ffffff;
+    background-color: transparent;
 }
 main{
     border: 2px solid brown;
 }
-header{
-    text-align: center;
+.imagetext{
+    display: block;
+    font-size: 100px;
+    background-image: url("./assets/images/luma.jpg") center/ cover no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
+
 .branches-container{
     display: flex;
     justify-content: space-around;
@@ -17,4 +26,17 @@ header{
 }
 footer{
     background-color: #042810;
+} */
+img{
+    width: 100%;
+}
+.imagetext{
+    font-size: 620px;
+    background-image: url("./assets/images/luma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
