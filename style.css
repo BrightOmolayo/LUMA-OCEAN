@@ -25,6 +25,10 @@ main{
 body{
     background-color: aliceblue;
 }
+header{
+    padding: 20px;
+    margin: 20px;
+}
 main{
     padding: 6%;
     background-color: #160D03;
@@ -44,7 +48,7 @@ img{
     -webkit-background-clip:text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin: 60px 0px;
+    margin: 50px 0px 80px 0px;
 }
 figcaption{
     background-image: url("./assets/images/luma.jpg");
@@ -55,25 +59,31 @@ figcaption{
     color: transparent;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
     margin: 9px 3px 3px 3px;
 }
 .branches-container{
     display: flex;
     justify-content: space-around;
+    height: 400px;
 }
 .branches-container div{
-    width: 27%;
+    width: 25%;
+    padding: 10px 0px;
 }
 .branches-container figure{
     border: 2px solid #160D03;
     border-radius: 50px;
     overflow: hidden;
+    height: 90%;
 }
-footer{
-    color: aliceblue;
-    background-color: #160D03;
+.footer-info{
+    color: #160D03;
     display: flex;
     justify-content: space-around;
     padding-bottom: 70px;
+}
+footer{
+    padding: 80px 20px;
+    margin-bottom: 40px;
 }
